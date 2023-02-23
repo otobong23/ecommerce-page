@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.active{
+    @apply left-0
+}
+
+.dark-layer.active{
+    opacity: 1;
+}
+
+.owl-nav{
+    display: none;
+}
+
+a.active{
+    @apply border-2 border-orange-x;
+}
+a.active img{
+    @apply opacity-50;
+}
+
+.cart-dialog.active{
+    @apply scale-100
+}
+
+.overlay-image.active{
+   display: flex;
+   opacity: 1;
+}
